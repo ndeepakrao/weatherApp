@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <title>Weather Application</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
-
-      <link rel="stylesheet" href="style.css">
-
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -19,42 +16,36 @@
     <p>Type in your city and hit enter</p>
   </div>
   <div class="container">
-  <header class="header">
-    <div class="search">
-      <input type="text" placeholder="Enter City Name" id="search-txt">
-      <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
-    </div>
-  </header>
+    <header class="header">
+      <div class="search">
+        <input type="text" placeholder="Enter City Name" id="search-txt">
+        <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </header>
 
-  <main id="main">
+    <main id="main">
 
-    <div class="city-icon">
-      <div class="city-icon-holder">
-      <div id="city-name"></div>
-      <img src="" alt="" id="icon">
+      <div class="city-icon">
+        <div class="city-icon-holder">
+          <div id="city-name"></div>
+          <img src="" alt="" id="icon">
         </div>
-    </div>
+      </div>
 
-    <div class="temperature">
-      <div id="temp"></div>
+      <div class="temperature">
+        <div id="temp"></div>
 
-    </div>
+      </div>
 
-    <div class="humidity">
-      <div id="humidity-div"></div>
-    </div>
+      <div class="humidity">
+        <div id="humidity-div"></div>
+      </div>
 
-  </main>
+    </main>
 
-</div>
+  </div>
   <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
-
-
-
-    <script  src="index.js"></script>
-
-
-
+  <script src="index.js"></script>
 </body>
 
 </html>
